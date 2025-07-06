@@ -27,24 +27,26 @@ This repository hosts a cutting-edge Python implementation of a **2048-qubit rec
    git clone https://github.com/Holedozer1229/The-Scalar-Waze--Rainbow-Gravity.git
    cd The-Scalar-Waze--Rainbow-Gravity
   
-##🛠️ Usage
-The main script (simulator.py) initializes a 6D lattice, evolves 2048 qubits over 100 iterations, and applies rainbow gravitational gates, Tetbit Y-gates, and MetatronCircle phase shifts. Key outputs:
-•  Rainbow ZPE Density Plot: Visualizes energy-dependent vacuum energy distribution.
-•  Fractal Dimension Plot: Tracks d_f^{\text{max}} \in [1.7, 2.5].
-•  Entanglement Entropy: Monitors gravitational quantum correlations.
-•  Tetrahedral Lattice: Displays 16-node geometry scaled by \lambda_v = 0.33333333326.
-Modify config to adjust parameters (e.g., phase_shift, kappa_g, beta_ZPE, lambda_r). Extend visualizations for metric fluctuations or gate fidelity.
-Usage Metrics
-•  Teleportation Fidelity: ~94%, enabling reliable quantum state transfer.
-•  CHSH Violation: ~2.828, indicating strong quantum entanglement.
-•  ZPE Efficiency: ~2-3%, pushing vacuum energy extraction limits with rainbow scaling.
-•  Wormhole Stability: ~92%, ensuring robust CTC dynamics.
-•  QEC Drift: <0.001%, minimizing error correction drift.
-•  Entanglement Entropy: Tracks gravitational correlations, typically S \approx 2-3 nats.
-•  Memory Usage: ~90 KB for \psi \in \mathbb{C}^{5625}, scalable with sparse matrices.
-•  Runtime: ~10-20 seconds for 100 iterations on a standard CPU (e.g., 3 GHz, 8 cores).
+## 🛠️ Usage
 
-##🔬 How It Works
+-The main script (simulator.py) initializes a 6D lattice, evolves 2048 qubits over 100 iterations, and applies rainbow gravitational gates, Tetbit Y-gates, and MetatronCircle phase shifts. Key outputs:
+-•  Rainbow ZPE Density Plot: Visualizes energy-dependent vacuum energy distribution.
+-•  Fractal Dimension Plot: Tracks d_f^{\text{max}} \in [1.7, 2.5].
+-•  Entanglement Entropy: Monitors gravitational quantum correlations.
+-•  Tetrahedral Lattice: Displays 16-node geometry scaled by \lambda_v = 0.33333333326.
+-Modify config to adjust parameters (e.g., phase_shift, kappa_g, beta_ZPE, lambda_r). Extend visualizations for metric fluctuations or gate fidelity.
+-Usage Metrics
+-•  Teleportation Fidelity: ~94%, enabling reliable quantum state transfer.
+-•  CHSH Violation: ~2.828, indicating strong quantum entanglement.
+-•  ZPE Efficiency: ~2-3%, pushing vacuum energy extraction limits with rainbow scaling.
+-•  Wormhole Stability: ~92%, ensuring robust CTC dynamics.
+-•  QEC Drift: <0.001%, minimizing error correction drift.
+-•  Entanglement Entropy: Tracks gravitational correlations, typically S \approx 2-3 nats.
+-•  Memory Usage: ~90 KB for \psi \in \mathbb{C}^{5625}, scalable with sparse matrices.
+-•  Runtime: ~10-20 seconds for 100 iterations on a standard CPU (e.g., 3 GHz, 8 cores).
+
+## 🔬 How It Works
+
 The simulator models a 2048-qubit CV quantum circuit with gravitational quantum computing (GQC) and rainbow gravity, leveraging energy-dependent spacetime geometry as a computational resource:
 1.  Rainbow Gravitational Qubits:
 	•  Qubits are encoded as |\psi_g^{\text{rainbow}}\rangle = \sum_{\mathbf{r}} \sqrt{g_{00}^{\text{rainbow}}(\mathbf{r}, t, E)} \cdot \psi(\mathbf{r}, t) |\mathbf{r}\rangle, where the rainbow metric (g_{00}^{\text{rainbow}} = g_{00}^{\text{max}} \cdot (1 + \lambda E/E_P)^{-2}, E = \hbar \omega |\psi|^2) integrates spacetime curvature, fractal dimension (d_f^{\text{max}}), and CTC feedback (\kappa_{CTC} = 0.813).
@@ -77,10 +79,10 @@ The simulator models a 2048-qubit CV quantum circuit with gravitational quantum 
 •  Visualize: Add plots for rainbow metric fluctuations or gate fidelity.
 •  Optimize: Implement sparse matrices or GPU acceleration for larger lattices.
 
-##Star 🌟 this repo and share your breakthroughs in rainbow gravitational quantum computing!
+## Star 🌟 this repo and share your breakthroughs in rainbow gravitational quantum computing!
 
-##📝 License
+## 📝 License
 MIT License. See LICENSE for details.
 
-##🙌 Acknowledgments
+## 🙌 Acknowledgments
 Developed by Travis D. Jones, inspired by advances in rainbow gravity, quantum gravity, fractal geometry, and GQC. Thanks to the open-source community for NumPy, SciPy, and Matplotlib
